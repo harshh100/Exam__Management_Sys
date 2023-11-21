@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 const bodyparser = require('body-parser')
-const jwt = require('jsonwebtoken');
 const connect = require('./db/Database')
 const app = express();
 const router = require('./routes/Routes')

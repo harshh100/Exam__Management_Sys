@@ -88,7 +88,7 @@ const StudentController = {
             await student.save();
             await exam.save();
 
-            res.status(200).json({ message: "Student joined the exam successfully" });
+            res.status(200).json({ message: "Student join the exam successfully" });
 
         } catch (error) {
             return res.status(500).json({ err: "Error  Join Exam" });
